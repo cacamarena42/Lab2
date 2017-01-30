@@ -28,7 +28,6 @@ ReadFile::ReadFile(const char* file_name)
 ReadFile::~ReadFile()
 {
    close();
-   delete this;
 }
 
 bool ReadFile::eof()
